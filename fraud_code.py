@@ -9,7 +9,7 @@ Created on Mon Feb 22 14:50:49 2021
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv(r"C:\Users\Aakash\Desktop\AAKASH\Coding Stuff\Full Data Science\Desicon Tree and Random Forest\Assginment\fraud.csv")
+data = pd.read_csv("fraud.csv")
 
 data.columns = ['grad','marry','tax_income','population','exp','urban']
 
