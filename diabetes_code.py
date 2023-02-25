@@ -8,7 +8,7 @@ Created on Sat Feb 20 15:48:28 2021
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv(r"C:\Users\Aakash\Desktop\AAKASH\Coding Stuff\Full Data Science\Desicon Tree and Random Forest\Assginment\diabetes.csv")
+data = pd.read_csv("diabetes.csv")
 
 dict = {' Class variable':   {'YES':1, 'NO' :0}}
 data = data.replace(dict)
