@@ -8,7 +8,7 @@ Created on Sat Feb 20 13:41:20 2021
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv(r"C:\Users\Aakash\Desktop\AAKASH\Coding Stuff\Full Data Science\Desicon Tree and Random Forest\Assginment\company.csv")
+data = pd.read_csv("company.csv")
 
 data.columns = ['sales','comp_price','income','advert','population','price','shelve_loc','age','edu','urban','us']
 
